@@ -81,7 +81,7 @@ A sophisticated desktop application for multimedia playback, binaural/isochronic
 
 ```bash
 git clone https://github.com/alamahant/BinauralPlayerDynamic.git
-cd BinauralPlayer
+cd BinauralPlayerDynamic
 mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=/path/to/qt6 ..
 make -j$(nproc)
